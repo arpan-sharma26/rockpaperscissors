@@ -24,7 +24,6 @@ body{
     font-weight: bolder;
     text-align: center;
     height: 50px;
-    
 }
 
 .two{
@@ -75,5 +74,22 @@ body{
     transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
+    .three{
+        display: inline;
+        font-size: 10px;
+        color: tomato;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .two{
+        color: black;
+        position: relative;
+        top: 40px;
+    }
+
+    html{
+        background-color: silver;
+    }
 }
