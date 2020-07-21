@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies");
+
+:root{
+    --primary-color: darkblue;
+    --dark-color: black;
+    --light-color: wheat;
+    --lost-color: red;
+    --win-color: green;
+    --modal-duration: 1s;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.one{
+    background-color: darkblue;
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+    
+}
+
+.two{
+    display: inline;
+    color: yellowgreen;
+    font-size: xx-large;
+    text-align: right;
+}
+
+.three{
+    display: inline;
+    font-size: small;
+    color: tomato;
+    text-align: center;
+}
+
+/* ROW for icons */
+.four{
+    background-color: silver;
+    height: 710px;
+    text-align: center;
+    font-size: 1500%;
+}
+
+
+.scores{
+    height: 40px;
+}
+
+.score1{
+    display: inline;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+
+.score2{
+    display: inline;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+
+/* SCISSORS */
+.seven{
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 720px){
+}
