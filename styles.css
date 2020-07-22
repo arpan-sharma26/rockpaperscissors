@@ -33,6 +33,17 @@ body{
     text-align: right;
 }
 
+#btn1{
+    cursor:pointer;
+}
+
+#btn2{
+    cursor:pointer;
+}
+
+#btn3{
+    cursor:pointer;
+}
 .three{
     display: inline;
     font-size: small;
